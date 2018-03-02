@@ -2,9 +2,6 @@
   "name": "full-icu",
   "version": "1.2.2-0",
   "description": "install 'full-icu' data for your current node",
-  "scripts": {
-    "postinstall": "node postinstall.js"
-  },
   "keywords": [
     "icu4c"
   ],
@@ -17,5 +14,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/icu-project/full-icu-npm.git"
+  },
+  "dependencies": {
+    "icu4c-data": "^0.57.2"
   }
 }
